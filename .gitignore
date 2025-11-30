@@ -1,0 +1,40 @@
+# Mac OS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# Build Artifacts
+Build/
+bin/
+obj/
+*.o
+*.d
+*.out
+*.a
+*.so
+*.dylib
+App
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Xcode
+.xcuserdata/
+.xcuserstate
+.xccheckout
+.xcodeproj/*.pbxuser
+.xcodeproj/*.mode1v3
+.xcodeproj/*.perspectivev3
+~Library/Logs/DiagnosticReports/
+DerivedData/
+
+# VSCode
+.vscode/
+
