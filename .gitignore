@@ -1,40 +1,82 @@
-# Mac OS System Files
+# Compiled executable
+hello
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# VSCode settings (optional - remove lines if you want to commit these)
+.vscode/
+compile_commands.json
+
+# macOS specific
 .DS_Store
 .AppleDouble
 .LSOverride
-.Spotlight-V100
-.Trashes
 ._*
 
-# Build Artifacts
-Build/
-bin/
-obj/
-*.o
-*.d
-*.out
-*.a
-*.so
-*.dylib
-App
+# Thumbnails
+Thumbs.db
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDE files
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-*
 
 # CMake
-CMakeFiles/
 CMakeCache.txt
+CMakeFiles/
 cmake_install.cmake
-Makefile
-compile_commands.json
+install_manifest.txt
 
-# Xcode
-.xcuserdata/
-.xcuserstate
-.xccheckout
-.xcodeproj/*.pbxuser
-.xcodeproj/*.mode1v3
-.xcodeproj/*.perspectivev3
-~Library/Logs/DiagnosticReports/
-DerivedData/
-
-# VSCode
-.vscode/
-
+# Backup files
+*.bak
+*.backup
